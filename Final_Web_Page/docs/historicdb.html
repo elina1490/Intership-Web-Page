@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	</head>
+	<body>
+	<h2 style="color:#349AB4; font-family:Arial;  text-align:center;4">Evaluation Data For Binarization Algorithms</h2>
+ 
+ 
+<p style="text-align:justify">The ideal way of evaluation should be able to decide, for each pixel, if it has finally succeeded the right color 
+(black or white) after the binarization. This is an easy task for a human observer but very difficult for a computer 
+to perform it automatically for all the pixels of several images.</p>
+
+<p style="text-align:justify">Two sets of 150 document images each were built up by using image mosaicing superimposing techniques for blending. 
+In more detail, we used as target images pdfs and resized all the noisy images to A4 size.
+ Then, we used two different techniques for the blending: the maximum intensity and the image averaging approaches.</p>
+ 
+<p style="text-align:justify">At the maximum intensity technique (max_int), the new image was constructed by picking up for each pixel in the new image, 
+the darkest corresponding pixel of the two images. </p>
+
+<p>These synethetic images are <a href="http://samosweb.aegean.gr/cv/zips/maxint.rar">here.</a><br>
+At the image averaging technique (ave_int), each pixel in the new image is the
+average of the two corresponding ones in the original images. 
+These synethetic images are <a href="http://samosweb.aegean.gr/cv/zips/aveint.rar">here.</a></p>
+ 
+<p>You can find more information about the noise in the images, the techniques and existed results in the paper:</p>
+<p><a href="http://www.icsd.aegean.gr/lecturers/kavallieratou/binDB_files/jucs_2008.pdf">Pavlos Stathis, Ergina Kavallieratou, Nikos Papamarkos, 
+"An Evaluation Technique for Binarization Algorithms",  Journal of Universal Computer Science, Vol. 14, No. 18, pp. 3011-3030, 2009.</a></p>
+ 
+The database has also been used in the contests:<br>
+<a href="http://www.icsd.aegean.gr/lecturers/kavallieratou/binDB_files/bindoc.pdf">
+ICFHR 2010 Contest:  Quantitative Evaluation of Binarization Algorithms</a><br>
+<a href="http://dae.cse.lehigh.edu/ICDAR2011Contest">
+ICDAR 2011: Specific Document Analysis Algorithm Contributions in End-to-End Applications</a><br>
+ 
+For any remarks please contact: <a href="mailto:"">kavallieratou at aegean.gr</a>
+ 
+	</body>
+	</html>
